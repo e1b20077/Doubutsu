@@ -23,9 +23,12 @@ abstract class AbstractKoma {
     image(img, SQUARESIZE*this.x+2, this.y*SQUARESIZE+2, SQUARESIZE-4, SQUARESIZE-4);
 
   }
+<<<<<<< Updated upstream
   
   void drawSelected() {
     fill(#FF0000, SQUARESIZE);
     rect(this.x*SQUARESIZE, this.y*SQUARESIZE, SQUARESIZE, SQUARESIZE);
   }
+=======
+>>>>>>> Stashed changes
 }
